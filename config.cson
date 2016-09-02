@@ -5,6 +5,7 @@
   "atom-scrolloff":
     scrolloff: 25
   "atom-ternjs": {}
+  "autocomplete-modules": {}
   "autocomplete-plus":
     autoActivationDelay: 50
     backspaceTriggersAutocomplete: true
