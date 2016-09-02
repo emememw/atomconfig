@@ -1,0 +1,19 @@
+'atom-text-editor.vim-mode:not(.insert-mode)':
+ 'ö': 'vim-mode:move-to-first-character-of-line'
+ 'f3': 'require-opener:open-selections-in-atom'
+ 'ctrl-f': 'formatter:format-code'
+ 'ctrl-r': 'find-and-replace:show'
+
+'atom-text-editor:not(mini).autocomplete-active':
+  'tab': 'unset!'
+  'enter': 'autocomplete-plus:confirm'
+  'up': 'unset!'
+  'down': 'unset!'
+  'ctrl-p': 'core:move-up'
+  'ctrl-n': 'core:move-down'
+
+'atom-text-editor.vim-mode.visual-mode':
+	'f3' : 'require-opener:open-selections-in-atom'
+
+'.platform-linux':
+	'ctrl-.': 'linter:next-error'

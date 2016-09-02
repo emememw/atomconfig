@@ -1,0 +1,80 @@
+"*":
+  Zen: {}
+  "atom-beautify":
+    _analyticsUserId: "7f917ce5-fafe-46b9-8e1f-84ba87940bfa"
+  "atom-scrolloff":
+    scrolloff: 25
+  "atom-ternjs": {}
+  "autocomplete-plus":
+    autoActivationDelay: 50
+    backspaceTriggersAutocomplete: true
+    confirmCompletion: "tab and enter"
+    maxVisibleSuggestions: 100
+    minimumWordLength: 0
+    navigateCompletions: "ctrl-p,ctrl-n"
+  "autohide-tree-view":
+    minWidth: 15
+    showDelay: 100
+  build: {}
+  core:
+    autoHideMenuBar: true
+    disabledPackages: [
+      "autohide-tree-view"
+      "atom-ternjs"
+      "minimap"
+    ]
+    excludeVcsIgnoredPaths: false
+    packagesWithKeymapsDisabled: [
+      "keyboard-sounds"
+    ]
+    themes: [
+      "one-dark-ui"
+      "monokai-slate"
+    ]
+  editor:
+    fontFamily: "ubuntu mono"
+    fontSize: 17
+    invisibles: {}
+    tabType: "hard"
+  esformatter: {}
+  "exception-reporting":
+    userId: "4f436c40-2f4a-a73d-d64c-6e0fde9dc643"
+  "formatter-jsbeautify":
+    a:
+      executablePath: "/usr/local/lib/node_modules/js-beautify/js/bin/js-beautify.js"
+    js:
+      arguments: [
+        "-t"
+      ]
+  "fuzzy-finder":
+    ignoredNames: [
+      ".git"
+      "node_modules"
+    ]
+  "git-plus": {}
+  "keyboard-localization": {}
+  linter:
+    errorPanelHeight: 86
+  "markdown-preview-plus": {}
+  metrics:
+    userId: "b3e028b03301eac359926b20852735a92ddca711"
+  minimap:
+    scrollAnimation: true
+  refactor:
+    highlightError: false
+    highlightReference: false
+  "release-notes":
+    viewedVersion: "0.95.0-7cdaaf2"
+  "remember-session":
+    height: 1056
+    treeWidth: 200
+    width: 1920
+    x: 0
+    y: 38
+  "tab-switcher": {}
+  "todo-show":
+    statusBarIndicator: true
+  "vim-mode":
+    useSmartcaseForSearch: true
+  welcome:
+    showOnStartup: false

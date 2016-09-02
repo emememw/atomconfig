@@ -1,0 +1,10 @@
+'.source.js':
+	'promise':
+		'prefix': 'prom'
+		'body': 'new Promise((resolve, reject) => {\n\t$1\n});'
+	'export object':
+		'prefix': 'expo'
+		'body': 'const ${1:ObjectName} = module.exports = {};'
+	'object function':
+		'prefix': 'obfun'
+		'body': '${1:ObjectName}.${2:functionName} = function ${3:functionName}(${4:params}) {\n\t$5\n};'
